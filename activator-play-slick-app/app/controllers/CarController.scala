@@ -16,7 +16,7 @@ import utils.JsonFormat._
 import scala.concurrent.Future
 
 /**
- *
+ * 	amit.dixit
  */
 class CarController @Inject() (empRepository: CarRepository, val messagesApi: MessagesApi) extends Controller with I18nSupport {
 
@@ -49,8 +49,8 @@ class CarController @Inject() (empRepository: CarRepository, val messagesApi: Me
   /**
    * Handles request for deletion of existing car by car_id
    */
-  def delete(empId: Int) = Action.async { request =>
-    empRepository.delete(empId).map { _ =>
+  def delete(carId: Int) = Action.async { request =>
+    empRepository.delete(carId).map { _ =>
       Ok(successResponse(Json.toJson("{}"), Messages("car.success.deleted")))
     }
   }

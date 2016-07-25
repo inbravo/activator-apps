@@ -1,7 +1,9 @@
 
 @import views.html.employee._
+@import views.html.car._ 
+ 
 
-@main("Employee-Database-App") {
+@main("Database-App") {
 
 	<!-- Populate employee table -->
 	@employeeList(" ")
@@ -11,5 +13,14 @@
 	
 	<!-- Populate employee edit form modal -->
 	@editEmployeeModal(" ")
+	
+	<!-- Populate car table -->
+	@carList(" ")
+	
+	<!-- Populate car form modal -->
+	@carFormModal(" ")
+	
+	<!-- Populate car edit form modal -->
+	@editCarModal(" ") 
 }
 

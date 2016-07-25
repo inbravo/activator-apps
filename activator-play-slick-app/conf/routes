@@ -3,10 +3,7 @@
 # ~~~~
 
 # Employee module home page
-GET     /emp                                controllers.Application.employeeIndex
-
-# Car module home page
-GET     /car                                controllers.Application.carIndex
+GET     /                                	controllers.Application.employeeIndex
 
 # Employee related routes
 GET     /emp/list                           controllers.EmployeeController.list
