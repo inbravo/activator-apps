@@ -11,7 +11,7 @@ Clone and run the app(default database is H2):
      $ cd activator-play-slick-app
      $ ./activator run
     
-![alt tag](/public/images/evolutions.png)
+![alt tag](/activator-play-slick-app/public/images/evolutions.png)
     
  Run the all unit test:
 
