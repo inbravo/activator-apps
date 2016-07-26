@@ -2,13 +2,12 @@
 
 This is an activator project providing a seed for starting with Play 2.5.x & Slick, how to write unit test and how to use mocking for unit testing. It also demonstrates the use of evolution in Play 2.5.x .
 
-
 -----------------------------------------------------------------------
 ###Instructions :-
 -----------------------------------------------------------------------
 Clone and run the app(default database is H2):
 
-     $ git clone git@github.com:knoldus/activator-play-slick-app.git
+     $ git clone git@github.com:inbravo/activator-apps/tree/master/activator-play-slick-app.git
      $ cd activator-play-slick-app
      $ ./activator run
     
