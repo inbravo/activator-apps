@@ -27,19 +27,19 @@ Run the app using Postgres database:
 -----------------------------------------------------------------------
 ### Home Page
 
-![alt tag](/public/images/homepage.png)
+![alt tag](/activator-play-slick-app/public/images/homepage.png)
 
 ### Add an Employee
 
-![alt tag](/public/images/AddEmployee.png)
+![alt tag](/activator-play-slick-app/public/images/AddEmployee.png)
 
 ### Edit an Employee
 
-![alt tag](/public/images/EditEmployee.png)
+![alt tag](/activator-play-slick-app/public/images/EditEmployee.png)
 
 ### Delete an Employee
 
-![alt tag](/public/images/DeleteEmployee.png)
+![alt tag](/activator-play-slick-app/public/images/DeleteEmployee.png)
 
 -----------------------------------------------------------------------
 ###References :-
